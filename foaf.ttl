@@ -7,7 +7,7 @@
 @prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix wd: <http://www.wikidata.org/entity/>.
-
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
 <> a foaf:Document ;
    dc:date "2020-11-17"^^xsd:date ;
@@ -26,5 +26,10 @@
    foaf:homepage <https://github.com/jhoncc2> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl#me>, <https://raw.githubusercontent.com/joseespinadote/joseespinadote.github.io/master/foaf.ttl#c8>, <http://users.dcc.uchile.cl/~bhurtado/foaf.ttl#bh> ;
    social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab>, <https://raw.githubusercontent.com/DaniferMoreno/Lab-9/main/foaf.ttl> ;
-   foaf:interest wd:Q54837 , wd:Q19829492 , wd:Q1168073 , wd:Q1168073, wd:Q4050885 ;
-   foaf:myersBriggs "INTP" .
+   foaf:interest wd:Q54837 , wd:Q11424 , wd:Q638 , wd:Q2736 ;
+   foaf:myersBriggs "INTP";
+   social:hasSpiritAnimal wd:Q144;
+   foaf:nick wd:Q3736439 ;
+   foaf:currentProject wd:Q35831;
+   vcard:country-name wd:Q298;
+   vcard:email "jcerezo@dcc.uchile.cl".

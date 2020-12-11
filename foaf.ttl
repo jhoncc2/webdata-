@@ -1,5 +1,4 @@
 @base <http://raw.githubusercontent.com/jhoncc2/webdata-/main/foaf.ttl> .
-
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -17,11 +16,11 @@
 
 <#jcc> a foaf:Person ;
    rdfs:label "Jhonny Cerezo" ;
-   rdfs:comment "Profesor Asistente del DCC"@es ;
+   rdfs:comment "Magister student at DCC"@en ;
    foaf:name "Jhonny Cerezo" ;
    foaf:givenName "Jhonny" ;
    foaf:familyName "Cerezo" ;
-   foaf:age 30 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:age 30 ;
    foaf:img <https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=600&h=600.0&fit=crop> ;
    foaf:homepage <https://github.com/jhoncc2> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh>, <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl#me>, <http://raw.githubusercontent.com/joseespinadote/joseespinadote.github.io/master/foaf.ttl#c8>, <http://users.dcc.uchile.cl/~bhurtado/foaf.ttl#bh> ;

@@ -1,4 +1,4 @@
-@base <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> .
+@base <http://raw.githubusercontent.com/jhoncc2/webdata-/main/foaf.ttl> .
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -12,19 +12,19 @@
 <> a foaf:Document ;
    dc:date "2020-11-17"^^xsd:date ;
    dc:title "Jhonny's FOAF Profile"@en ;
-   foaf:primaryTopic <#ah> ;
-   dc:creator <#ah> .
+   foaf:primaryTopic <#jcc> ;
+   dc:creator <#jcc> .
 
-<#ah> a foaf:Person ;
+<#jcc> a foaf:Person ;
    rdfs:label "Jhonny Cerezo" ;
    rdfs:comment "Profesor Asistente del DCC"@es ;
    foaf:name "Jhonny Cerezo" ;
    foaf:givenName "Jhonny" ;
    foaf:familyName "Cerezo" ;
-   foaf:age 35 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
-   foaf:img <http://aidanhogan.com/img/me-sp.png> ;
-   foaf:homepage <http://users.dcc.uchile.cl/~ahogan> ;
-   foaf:knows <http://users.dcc.uchile.cl/~dhernand/foaf.ttl#dh> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl#me> ;
-   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> ;
+   foaf:age 30 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:img <https://lh3.googleusercontent.com/a-/AOh14Ggl93LT9s5WWfPL1SqKr1ZS1690D9CgJAz671SU=s192-c-rg-br100> ;
+   foaf:homepage <https://github.com/jhoncc2> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl#me>, <https://raw.githubusercontent.com/joseespinadote/joseespinadote.github.io/master/foaf.ttl#c8>, <http://users.dcc.uchile.cl/~bhurtado/foaf.ttl#bh> ;
+   social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab>, <https://raw.githubusercontent.com/DaniferMoreno/Lab-9/main/foaf.ttl> ;
    foaf:interest wd:Q54837 , wd:Q19829492 , wd:Q1168073 , wd:Q1168073, wd:Q4050885 ;
    foaf:myersBriggs "INTP" .

@@ -6,7 +6,6 @@
 @prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix wd: <http://www.wikidata.org/entity/>.
-#@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
 <> a foaf:Document ;
    dc:date "2020-11-17"^^xsd:date ;
@@ -30,5 +29,3 @@
    social:hasSpiritAnimal wd:Q144;
    foaf:nick wd:Q3736439 ;
    foaf:currentProject wd:Q35831.
-#   vcard:country-name wd:Q298;
-#   vcard:email "jcerezo@dcc.uchile.cl".

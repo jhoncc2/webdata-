@@ -20,7 +20,7 @@
    foaf:givenName "Jhonny" ;
    foaf:familyName "Cerezo" ;
    foaf:age 30 ;
-   foaf:img <https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=600&h=600.0&fit=crop> ;
+   foaf:img <https://images.theconversation.com/files/38926/original/5cwx89t4-1389586191.jpg> ;
    foaf:homepage <https://github.com/jhoncc2> ;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#dh>, <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab> , <http://anakena.dcc.uchile.cl/~jasalas/web/foaf.ttl#me>, <http://raw.githubusercontent.com/joseespinadote/joseespinadote.github.io/master/foaf.ttl#c8>, <http://users.dcc.uchile.cl/~bhurtado/foaf.ttl#bh> ;
    social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab>, <http://raw.githubusercontent.com/DaniferMoreno/Lab-9/main/foaf.ttl> ;
